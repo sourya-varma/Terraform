@@ -1,11 +1,7 @@
 # Terraform-specific ignores
 .terraform/
 *.tfstate
-*.tfstate.*
-crash.log
+*.tfstate.backup
+*.tfvars
 *.tfvars.json
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraform.lock.hcl
+
